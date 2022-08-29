@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatiable" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <tittle>web2.0</tittle>
+  
+<!--   swap css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  <!--front awesome cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+  
+<body>
+<!--  header section  start-->
+<header class="header">
+    <section class="flex">
+      <a href="#home" class="logo">Codee.</a>
+      
+      <nav class ="navbar">
+        <a href ="#home">home</a>
+        <a href ="#about">about</a>
+        <a href ="#courses">courses</a>
+        <a href ="#teachers">teachers</a>
+        <a href ="#review">review</a>
+        <a href ="#contacts">contacts</a>
+        </nav>
+
+      <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+                   
+      </section>
+    </header>
+<!--   header section ends -->
+  
+  
+<!--   home section -->
+ <section class="home" id="home">
+   <div class="row">
+     <div class="content">
+       <h3>online<span>education</span></h3>
+       <a href="#cotact" class="btn">contact us</a>
+       </div>
+     
+     <div class="image">
+       <img src="https://freerangestock.com/sample/113048/code--coding-and-programming--dark-version.jpg" alt="">
+
+       </div>
+     </div>
+   </section>
+  <!-- home section end -->
+  
+<!--   counter section start -->
+  
+  <section class="count">
+    <div class="box-container">
+         <div class="box">
+    <i class="fas fa-graduation-cap"></i>
+    <div class="content">
+    <h3>150+</h3>
+    <p>courses</p>
+      </div>
+    
+    </div>
+  
+    <div class="box">
+    <i class="fas fa-user-graduate"></i>
+    <div class="content">
+    <h3>1350+</h3>
+    <p>students</p>
+      </div>
+    
+    </div>
+  
+    <div class="box">
+    <i class="fas fa-chalkboard-user"></i>
+    <div class="content">
+    <h3>80+</h3>
+    <p>teachers</p>
+      </div>
+    
+    </div>
+  
+    <div class="box">
+    <i class="fas fa-face-smile"></i>
+    <div class="content">
+    <h3>100%</h3>
+    <p>satisfactions</p>
+      </div>
+    
+    </div>
+  
+  </div>
+    </section>
+  <!--   counter section end -->
+  
+<!--   about section start -->
+  
+  <section class="about" id ="about">
+    <div class ="row">
+      <div class="image">
+           <img src="https://quincycollege.edu/wp-content/uploads/AccessingCoursesOnlinePageSlider.png" alt="">
+      </div>
+    <div class ="content">
+      <h3>why choose us?</h3>
+      <p>It's on you:(we can update it by our neeed)</p>
+      <a href="#contact" class="btn">contact us</a>
+      </div>
+      </div>
+    </section>
+<!--   about section end -->
+  
+<!--   course section start-->
+  
+  <section class="courses" id="courses">
+    <h1 class ="heading">our <span>courses</span></h1>
+    <div class=" swiper course-slider">
+      <div class="w">
+        
+        <div class="swiper-slide slide">
+          <img class="eqal_size" src="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000" alt="">
+          <h3>Web Development<h3>
+            <p>About Web dev</p>
+          </div>
+            
+             <div class="swiper-slide slide">
+          <img class="eqal_size" src="https://www.freelancinggig.com/blog/wp-content/uploads/2017/08/Programming-Languages-for-Cryptography.jpg" alt="">
+          <h3>Cryptography<h3>
+            <p>About Cryptography</p>
+          </div>
+            
+             <div class="swiper-slide slide">
+          <img class="eqal_size"src="https://imageio.forbes.com/specials-images/imageserve/5f2a32ee3b52675a453e2881/Fascinating-Examples-Of-How-Blockchain-Is-Used-In-Insurance--Banking-And-Travel/960x0.jpg?format=jpg&width=960" alt="">
+          <h3>Blockchain<h3>
+            <p>About blockchain dev</p>
+          </div>
+            
+            <div class="swiper-slide slide">
+          <img class="eqal_size" src="https://www.stevenvanbelleghem.com/wp-content/uploads/2020/02/QuantumComputing-750x450-1.jpg" alt="">
+          <h3>Quantum Computing and Post Quantum Cryptography<h3>
+            <p>About Quantum Computer's</p>
+          </div>
+           <div class="swiper-pagination"></div>
+
+      </div>
+    </div>
+    </section>
+  
+  <!--   course section end-->
+  
+
+</body>
+</html>
+                   
+                   
+                   
+<!-- swiper js link                    -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>   
